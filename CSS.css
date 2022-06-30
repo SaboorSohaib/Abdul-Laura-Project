@@ -4,4 +4,34 @@
 }
 body{
     background-color: aqua;
+
+}
+.container{
+    background-color: blue;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    height: 400px;
+    width: 700px;
+    text-align: center;
+}
+#title{
+    text-align: center;
+}
+p{
+    text-align: center;
+
+}
+.formation{
+    text-align: center;
+    background-color:blue ;
+  
+    width: 100%;
+}
+.form-register{
+
+    
+    margin: 5px;
+    padding: 12px;
 }

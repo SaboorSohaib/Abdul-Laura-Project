@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="CSS.css">
 </head>
 
 <body>
@@ -26,12 +27,12 @@
 
             <div class="form-register">
                 <label class="form-group-label" for="age">Age(optional)</label>
-                <input type="text " name="age" id="age" class="form-input" placeholder="age" required />
+                <input type="number" name="age" id="age" min="0" max="20" class="form-input" placeholder="age" required />
 
             </div>
 
             <div class="form-register">
-                <label class="form-group-label" for="select current role">Which option best describes your current role</label>
+                <label class="form-group-label" for="select current role">Which option best describes your current role</label><br>
                 <select name="role" class="form-input" id="select current role">
                 <option value="role ">select current role</option>
                 <option value="student">Student</option>
@@ -43,12 +44,14 @@
                 </select>
 
                 <div class="form-register">
-                    <label class="form-group-label" for="age">Would you recommend freecode camp to anyone</label>
-                    <input type="text " name="age" id="age" class="form-input" placeholder="age" required />
+                    <label class="form-group-label" for="age">Would you recommend freecode camp to anyone</label><br>
+                    <input type="radio" name="name"><br>
+                    <input type="radio" name="name"><br>
+                    <input type="radio" name="name"><br>
                 </div>
 
                 <div class="form-register">
-                    <label class="form-group-label" for="favourite feature">What is your favourite feature of freecode camp</label>
+                    <label class="form-group-label" for="favourite feature">What is your favourite feature of freecode camp</label><br>
                     <select name="role" class="form-input" id="select an option">
                     <option value="role">select an option</option>
                     <option value="challenges">Challenges</option>
@@ -57,6 +60,18 @@
                     <option value="Open source">Open source</option>
                     </div>
                     </select>
+                    <div>
+                        <input type="checkbox" value="car"> Car <br>
+                        <input type="checkbox" value="AirPlane">Airplane<br>
+                        <input type="checkbox" value="Bike"> Bike<br>
+                        <input type="checkbox" value="train"> Train<br>
+                    </div>
+                    <div>
+                        <textarea name=""  cols="30" rows="10" placeholder="Enter Your Comment here..">
+
+                        </textarea>
+                    </div>
+                    <button id="submit">Submit</button>
         </form>
 </body>
 
